@@ -81,7 +81,7 @@ fun FormInputPasswordItem(
 }
 
 @Composable
-fun FormInputPasswordContent(
+fun FormInputPasswordCall(
     modifier: Modifier = Modifier,
     onInputChange: (String) -> Unit
 ) {
@@ -103,8 +103,8 @@ fun FormInputPasswordContent(
     )
 }
 
-//@Preview
-//@Composable
-//private fun FormInputPasswordPrev() {
-//    FormInputPasswordContent {}
-//}
+@Preview
+@Composable
+private fun FormInputPasswordPrev() {
+    FormInputPasswordCall {}
+}

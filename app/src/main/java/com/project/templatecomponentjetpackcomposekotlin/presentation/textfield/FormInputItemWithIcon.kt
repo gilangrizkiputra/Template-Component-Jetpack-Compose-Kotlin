@@ -98,7 +98,7 @@ fun FormInputItemWithIcon(
 }
 
 @Composable
-fun FormInputItemWithIconContent(
+fun FormInputItemWithIconCall(
     modifier: Modifier = Modifier,
     onInputChange: (String) -> Unit
 ) {
@@ -116,6 +116,6 @@ fun FormInputItemWithIconContent(
 
 @Preview
 @Composable
-private fun FormInputWithIconPrev() {
-    FormInputItemWithIconContent {}
+private fun FormInputWithIcon() {
+    FormInputItemWithIconCall {}
 }

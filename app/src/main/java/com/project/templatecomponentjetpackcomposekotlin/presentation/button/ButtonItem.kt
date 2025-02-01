@@ -42,7 +42,7 @@ fun ButtonItem(
 }
 
 @Composable
-fun ButtonItemContent(
+fun ButtonItemCall(
     modifier: Modifier = Modifier,
     onButtonClick: () -> Unit
 ) {
@@ -56,5 +56,5 @@ fun ButtonItemContent(
 @Preview
 @Composable
 private fun ButtonItemPrev() {
-    ButtonItemContent {}
+    ButtonItemCall {}
 }
