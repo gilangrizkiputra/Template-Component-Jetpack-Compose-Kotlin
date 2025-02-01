@@ -56,4 +56,24 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Splash Screen
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
+    // Navigation and Animation
+    implementation("androidx.navigation:navigation-compose:2.7.3")
+    implementation("androidx.compose.animation:animation:1.5.0")
+
+    // DataStore
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+    // Date Picker
+    implementation("io.github.vanpra.compose-material-dialogs:datetime:0.8.1-rc")
+
+    // Coil
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // Icons Extended
+    implementation("androidx.compose.material:material-icons-extended")
 }
